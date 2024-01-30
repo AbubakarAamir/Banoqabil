@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    min-height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.header{
+    background: navy;
+}
+
+.header img{
+    width: 100px;
+    margin-left: 10px;
+}
+.toggle-header{
+    box-shadow: 0 0 5px aliceblue;
+    background: aliceblue;
+    transition: 1s ease-in-out;
+
+}
+.toggle-header:hover{
+    box-shadow: 1px 1px 5px aliceblue;
+}
+
+.toggle-header-icon{
+    color: aliceblue;
+    font-size: large;
+}
+.nav-item a{
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    margin-left: 40px;
+}
+.dropdown-menu .dropdown-item{
+    background: aliceblue;
+    color: black;
+}
+.nav-item a{
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.header-button a{
+    border-radius: 40px;
+    /* border: 2px solid black; */
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    /* display: flex;
+    align-items: end; */
+}
+.header-button a:hover{
+    color: navy;
+    background: aliceblue;
+}
+.space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cherry a:hover{
+    background:blue;
+}
+
+/* .video-1 video{
+    width: 100%;
+
+} */
+.cherry{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.cherry img{
+    width: 100%;
+    height: auto;
+
+
+
+}
+
+
+.cherry a{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background: white;
+    font-weight: 1000;
+    border-radius: 20px;
+}
+.card-container{
+    background-image: url(./background\ pepsi\ pic.jpg);
+    background-repeat: no-repeat;
+    /* background-position: 50%; */
+    /* background-size: 220%; */
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.card-heading h1{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    padding-top: 30px;
+    color: aliceblue;
+}
+.cards{
+    cursor: pointer;
+}
+.card-template{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-picture{
+    margin-left: 50px;
+    margin-top: 200px;
+    border-radius: 20px;
+    transition: 0.2s ease all;
+}
+.card-name{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+
+}
+
+.card-name p{
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cards:hover > .card-name p{
+    background: blue;
+    color: aliceblue;
+}
+.cards:hover > .card-picture{
+    box-shadow: 0 0 30px blue;
+}
+
+/* .video-2 video{
+    width: 100%;
+
+} */
+.slider-container{
+    width: 100%;
+    background: black;
+
+}
+.slider-container h2{
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+
+}
+.slider-template{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid navy;
+
+
+}
+.sliders{
+    justify-content: center;
+    /* padding: 5px; */
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 1s ease;
+
+}
+
+.slider-image img{
+    width: 200px;
+    transition: 1s ease;
+
+}
+.sliders:hover > .slider-image img{  
+    background: blue;
+    opacity: 0.2;
+    transform: scaleX(1.2);
+
+}
+
+footer{
+    position: sticky;
+    top: 100;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: blue;
+    height: 300px;
+    width: auto;
+    /* overflow: hidden; */
+
+}
+
+.pepsi-logo img{
+    width: 150px;
+    cursor: pointer;
+}
+
+
+.menu{
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.menu ul{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    list-style: none;
+    column-count: 3;
+}
+
+.menu li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+    /* border: 1px solid; */
+    border-radius: 30px;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.menu li:hover{
+    color: blue;
+    background: aliceblue;
+}
+
+.footer-icons{
+    display: flex;
+}
+
+.footer-icons ion-icon{
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+
+}
+
+.footer-icons ion-icon:hover{
+    color: blue;
+    background: aliceblue;
+}
+
+.footer-icons .insta:hover{
+    color: rgb(197, 73, 73);
+    background: navy;
+    
+}
+.footer-icons .yt:hover{
+    color: rgb(255, 0, 0);
+    background: navy;
+    
+}
+.footer-icons .X:hover{
+    color: rgb(27, 197, 240);
+    background: navy;
+    
+}
+
+.footer-icons .tt:hover{
+    color: rgb(0, 0, 0);
+    background: navy;
+    
+}
