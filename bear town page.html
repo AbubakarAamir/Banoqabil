@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex box practise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  /* css reset */
+  body {
+      padding: 0px;
+      margin: 0px;
+      background-image: url(./bear\ pic.jpg);
+      background-size: cover;
+  height: 1000px;
+      color: black;
+      font-family: 'Baloo Bhai 2', sans-serif;
+  
+  }
+  
+
+  .left {
+
+      display: inline block;
+      position: absolute;
+      left: -12px;
+      top: 20px;
+      line-height: 19px;
+      font-size: 20px;
+      margin: 0px 0px 0px 20px;
+  }
+
+  .center {
+      display: block;
+      width: 50%;
+      margin: 15px auto ;
+      padding: 40px 40px 40px 40px;
+      border: 0px 0px 0px -50px;
+      font-size: 30px;
+
+
+
+  }
+
+  .right {
+      position: absolute;
+      right: 34px;
+      top: 50px;
+
+      display: inline block;
+      margin: 0px -20px;
+  }
+
+  .navbar {
+      display: inline-block;
+  }
+
+  .navbar li {
+      display: inline-block;
+      font-size: 20px;
+  }
+
+  .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 34px 23px;
+  }
+
+  .navbar li a:hover,
+  .navbar li a.active {
+      text-decoration: underline;
+      color: black;
+    
+  }
+
+  .left img {
+      width: 140px;
+      border-radius: 60px;
+
+
+  }
+
+  .left div {
+      text-align: center;
+  }
+
+  .btn {
+      margin: 0px 9px;
+      color: white;
+      background: red;
+      padding: 6px 14px;
+      border: 2px solid red;
+      border-radius: 25px;
+      font-size: 20px;
+      cursor: pointer;
+      font-family: 'Baloo Bhai 2', sans-serif;
+  }
+
+  .btn:hover {
+      background: red;
+      opacity: 0.9;
+  }
+  div h2{
+  color: #1e0523;
+  font-size: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin: 0px 0px 0px 850px;
+ font-family: 'Baloo Bhai 2', sans-serif;
+  
+  }
+  input{
+        border-radius: 63px ;
+    margin: -120px 0px -30px 447px;
+    border: 0px 0px 0px 0px ;
+    padding: 22px 182px 12px 22px ;
+    display: flex;
+   background: transparent;
+   background: white;
+   border: 2px solid white;
+   text-align: center;
+
+       }
+       .plus{
+        color: black;
+        font-size: 40px;
+        margin: -15px 0px 0px 768px;
+        cursor: pointer;
+
+       }
+       .minus{
+        color: black;
+        font-size: 40px;
+        cursor: pointer;
+        margin: -12px 0px 0px -345px;
+       }
+       #btn1{
+        margin: 10px 356px;
+      color: white;
+      background: black;
+      padding: 6px 60px;
+      border: 2px solid white;
+      border-radius: 25px;
+      font-size: 20px;
+      cursor: pointer;
+      font-family: 'Baloo Bhai 2', sans-serif;    
+
+       }
+       #btn1:hover{
+        background: black;
+        opacity: 0.9;
+       }
+       #btn2{
+        background: black;
+        color: white;
+        border: 2px solid white;
+        border-radius: 25px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', sans-serif;
+        padding: 6px 60px;
+        margin: 87px 0px 0px -327px ;
+        border: 0px 0px 0px 0px ;
+        font-size: 20px;
+           }
+           #btn2:hover{
+        background: black;
+        opacity: 0.9;
+       }
+       
+</style>
+
+<body >
+  <header class="header">
+    <!-- left box for logo -->
+    <div class="left">
+        <img src="./bear pic 2.png" alt="image is not found">
+        <div> GRUMPY BEAR <br>TOWN CLUB</div>
+    </div>
+    <!-- center box for navigation bar -->
+    <div class="center">
+        <ul class="navbar">
+            <li><a href="#" class="active">ABOUT</a></li>
+            <li><a href="./products .html">RARITY</a></li>
+            <li><a href="#">ROADMAP</a></li>
+            <li><a href="#">TEAM</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </div>
+    <!-- right box for the buttons -->
+    <div class="right">
+        <button class="btn">CONNECT WALLET</button>
+    </div>
+    <div><br><br><br><h2>GRUMPY<br> BEAR<br> TOWN CLUB </h2></div>
+    <div>
+      <input type="search" >
+      <i class="fa-solid fa-plus plus"></i>
+      <i class="fa-solid fa-minus minus"></i>
+      </div>
+      
+<button id="btn1">Connect wallet </button>
+<button id="btn2">Buy with cash</button>
+<script src="./app1.js"></script>
+</body>
+</html>
