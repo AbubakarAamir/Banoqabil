@@ -1,0 +1,206 @@
+/* * {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+/* Box 1: */
+.navbar {
+    background: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: 100px;
+}
+
+
+.logo {
+    background-image: url(./Amazon\ logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 3px solid transparent;
+}
+
+.border:hover {
+    border: 3px solid white;
+}
+
+/* Box 2: */
+.first-address {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+
+}
+
+.second-address {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Box 3: */
+.navbar-search {
+    display: flex;
+    background: yellow;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    
+
+}
+
+.search-select {
+    background: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px ;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    
+}
+
+.search-icon{
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem;
+    background-color: orange;
+    border-top-right-radius: 4px ;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+/* Box 4: */
+span{
+    font-size: 0.9rem;
+}
+.navbar-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+ /* Box 5: */
+ .navbar-card i{
+    font-size: 30px;
+ }
+ .navbar-card{
+    font-weight: 700;
+    font-size: 0.85rem;
+ }
+
+ 
+ /* Pannel  */
+
+ .pannel{
+    height: 60px;
+    background: #222f3d;
+    display: flex;
+color: white;
+ align-items: center;                                /*This is used to vertically align the items */
+                   /*This is used to horizontally align the items   */ 
+ }
+ .pannel-option p{
+    display: inline;
+    margin-left: 130px;
+    
+ }
+ .pannel-option p a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+
+ }
+
+ .pannel-option{
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+
+ /* hero-section: */ 
+
+ .hero-section{
+    background-image: url(./hero\ image\ 2.webp);
+    height: 500px;
+    background-size: cover;
+ }
+
+
+/* images boxes start from  here */
+
+.shop-section{
+    display: flex;
+flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white
+
+}
+.discount{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    color: #0f1111;
+    padding: 26px 0px 0px 0px;
+    margin: 0px 0px 0px 346px;
+
+}
+.box{
+    
+    border-radius: 15px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px ;
+    margin-top: 25px;
+    
+}
+
+.box-image{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.box-image:hover{
+    color: aqua;
+    opacity: 0.6;
+    border-radius: 20px;
+    
+    
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+ .box-content p {
+    color: blue;
+ }
+ 
